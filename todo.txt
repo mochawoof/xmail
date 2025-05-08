@@ -1,0 +1,5 @@
+https://developers.google.com/workspace/gmail/imap/imap-smtp
+https://www.digitalocean.com/community/tutorials/javamail-example-send-mail-in-java-smtp
+
+https://developers.google.com/api-client-library/java/google-oauth-java-client/setup
+https://central.sonatype.com/artifact/com.google.oauth-client/google-oauth-client/dependencies
