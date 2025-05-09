@@ -1,7 +1,10 @@
 import javax.swing.*;
 class Main {
     public static void main(String[] args) {
-        // Todo run on edt
-        new Window();
+        SwingUtilities.invokeLater(new Runnable() {
+            public void run() {
+                new Window();
+            }
+        });
     }
 }
