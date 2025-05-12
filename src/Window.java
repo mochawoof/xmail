@@ -2,6 +2,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
+import org.pushingpixels.flamingo.api.ribbon.*;
+
 class Window extends JFrame {
     public Window() {
         setTitle("XMail");
