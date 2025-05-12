@@ -2,14 +2,12 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-import org.pushingpixels.flamingo.api.ribbon.*;
-
 class Window extends JFrame {
     public Window() {
         setTitle("XMail");
         setSize(800, 600);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setLaf("org.pushingpixels.substance.api.skin.SubstanceBusinessLookAndFeel");
+        setLaf("com.formdev.flatlaf.FlatLightLaf");
 
         setVisible(true);
     }
